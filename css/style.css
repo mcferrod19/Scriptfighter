@@ -1,0 +1,293 @@
+
+
+body{
+  margin:0;
+}
+.container{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+header{
+  margin:0;
+  display:flex;
+  justify-content: center;
+}
+
+h1{
+  font-family: 'marsneveneksk regular';
+  font-size: 8em;
+  color: black;
+  -webkit-text-stroke: 0.2px rgb(94, 212, 216);
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+    animation: text-flicker 2s infinite  ;
+
+}
+
+@keyframes text-flicker {
+  2% {
+    color: black;
+    text-shadow: 0 0 15px rgb(230, 0, 120);
+  }
+  3% {
+    color: rgba(103, 58, 217, .5);
+    text-shadow: none;
+  }
+  6% {
+    color: rgb(94, 212, 216);
+    text-shadow: 0 0 15px rgb(230, 0, 120);
+  }
+  9% {
+    color: rgba(103, 58, 217, .5);
+    text-shadow: none;
+  }
+  11% {
+    color: rgb(94, 212, 216);
+    text-shadow: 0 0 15px rgb(230, 0, 120);
+  }
+  14% {
+    color: rgba(103, 58, 217, .5);
+    text-shadow: none;
+  }
+  18% {
+    color: rgb(94, 212, 216);
+    text-shadow: 0 0 15px rgb(230, 0, 120);
+  }
+  32% {
+    color: rgb(94, 212, 216);
+    text-shadow: 0 0 15px rgb(230, 0, 120);
+  }
+  33% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  37% {
+    color: rgb(94, 212, 216);
+    text-shadow: 0 0 15px rgb(230, 0, 120);
+  }
+  39% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  43% {
+    color: rgb(94, 212, 216);
+    text-shadow: 0 0 15px rgb(230, 0, 120);
+  }
+  46% {
+    color: rgba(41, 0, 119 .5);
+    text-shadow: none;
+  }
+  47% {
+    color: rgb(83, 0, 119);
+    text-shadow: 0 0 15px rgb(41, 0, 119);
+  }
+  100% {
+    color: rgb(94, 212, 216);
+    text-shadow: 0 0 15px rgb(83, 0, 119);
+  }
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width:100%;
+}
+.audio{
+  display: flex;
+  background-color: black;
+  padding-top: 15px;
+
+
+}
+.audio_icons{
+  margin-left: 2em;
+  cursor: pointer;
+  height: 2em;
+}
+.audio_icons:hover{
+  height: 1.8em;
+}
+.register{
+  display: flex;
+  align-content: center;
+  padding-top: 15px;
+
+}
+#regist_title{
+  font-size: 18px;
+  font-family: "Press Start 2P";
+  color:rgb(247, 163, 59);
+}
+#form_icon{
+  height: 5em;
+  padding-right: 15px;
+}
+
+.imageCity{
+  display:flex;
+  align-items: flex-start;
+  position: relative;
+
+}
+#citysf{
+  width:50em;
+}
+
+.neon {
+  font-family: "Press Start 2P";
+  font-weight: 300;
+  font-size:2.4em;
+  margin: 15px 0 0;
+  color:rgb(247, 163, 59);
+  -webkit-text-stroke: 1.5px black;
+}
+.neon:hover  {
+  animation: button-flicker 2s linear forwards;
+}
+.neon:hover .first {
+  animation: letter-flicker 3s linear infinite;
+}
+
+.containerButNumber {
+  position: absolute;
+  top: 60em;
+  right: 52em;
+  transform: skewY(32deg);
+}
+.containerButWho {
+  position: absolute;
+  top: 40em;
+  right: 30em;
+  transform: skewY(-32deg);
+}
+.containerButLocked {
+  position: absolute;
+  top: 28em;
+  right: 30em;
+  transform: skewY(-32deg);
+}
+@keyframes button-flicker {
+  2% {
+    color: rgb(94, 212, 216);
+    text-shadow: 0 0 15px rgb(94, 212, 216);
+  }
+  3% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  6% {
+    color: rgb(94, 212, 216);
+    text-shadow: 0 0 15px rgb(94, 212, 216);
+  }
+  9% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  11% {
+    color: rgb(94, 212, 216);
+    text-shadow: 0 0 15px rgb(94, 212, 216);
+  }
+  14% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  18% {
+    color: rgb(94, 212, 216);
+    text-shadow: 0 0 15px rgb(94, 212, 216);
+  }
+  32% {
+    color: rgb(94, 212, 216);
+    text-shadow: 0 0 15px rgb(94, 212, 216);
+  }
+  33% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  37% {
+    color: rgb(94, 212, 216);
+    text-shadow: 0 0 15px rgb(94, 212, 216);
+  }
+  39% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  43% {
+    color: rgb(94, 212, 216);
+    text-shadow: 0 0 15px rgb(94, 212, 216);
+  }
+  46% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  47% {
+    color: rgb(94, 212, 216);
+    text-shadow: 0 0 15px rgb(94, 212, 216);
+  }
+  100% {
+    color: rgb(94, 212, 216);
+    text-shadow: 0 0 15px rgb(94, 212, 216);
+  }
+}
+
+@keyframes letter-flicker {
+    2% {
+    color: rgb(217, 146, 58);
+    text-shadow: 0 0 15px rgb(217, 146, 58);
+  }
+  3% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  6% {
+    color: rgb(217, 146, 58);
+    text-shadow: 0 0 15px rgb(217, 146, 58);
+  }
+  9% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  11% {
+    color: rgb(217, 146, 58);
+    text-shadow: 0 0 15px rgb(217, 146, 58);
+  }
+  14% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  18% {
+    color: rgb(217, 146, 58);
+    text-shadow: 0 0 15px rgb(217, 146, 58);
+  }
+  32% {
+    color: rgb(217, 146, 58);
+    text-shadow: 0 0 15px rgb(217, 146, 58);
+  }
+  33% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  37% {
+    color: rgb(217, 146, 58);
+    text-shadow: 0 0 15px rgb(217, 146, 58);
+  }
+  39% {
+    color: rgba(120, 0, 50, .5);
+    text-shadow: none;
+  }
+  40% {
+    color: rgb(217, 146, 58);
+    text-shadow: 0 0 15px rgb(217, 146, 58);
+  }
+  100% {
+    color: rgb(217, 146, 58);
+    text-shadow: 0 0 15px rgb(217, 146, 58);
+  }
+}

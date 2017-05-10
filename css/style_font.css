@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'MARSNEVENEKSK Regular';
+    src: url('marsneveneksk_20-webfont.woff2') format('woff2'),
+         url('marsneveneksk_20-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
