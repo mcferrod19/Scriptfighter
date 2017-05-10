@@ -28,7 +28,6 @@ h1{
      -1px 1px 0 #000,
       1px 1px 0 #000;
     animation: text-flicker 2s infinite  ;
-
 }
 
 @keyframes text-flicker {
@@ -159,19 +158,19 @@ h1{
 .containerButNumber {
   position: absolute;
   top: 60em;
-  right: 52em;
-  transform: skewY(32deg);
+  right: 46em;
+  transform: skewY(34deg);
 }
 .containerButWho {
   position: absolute;
-  top: 40em;
-  right: 30em;
+  top: 42em;
+  right: 23em;
   transform: skewY(-32deg);
 }
 .containerButLocked {
   position: absolute;
   top: 28em;
-  right: 30em;
+  right: 23em;
   transform: skewY(-32deg);
 }
 @keyframes button-flicker {
